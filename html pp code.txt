@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h1>Hello, I'm Your Name</h1>
+            <p>A passionate web developer creating beautiful and functional websites.</p>
+            <img src="your-photo.jpg" alt="Your Name" class="profile-photo">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a web developer with a strong background in computer science. I specialize in front-end development and have experience with modern web technologies such as HTML, CSS, JavaScript, and React. My goal is to build engaging user experiences and intuitive interfaces.</p>
+            <h3>Education</h3>
+            <p>BS in Computer Science - Your University</p>
+            <h3>Professional Experience</h3>
+            <p>Software Developer at Company XYZ - Worked on various web applications and improved the user experience for clients.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A brief description of Project 1. This project involved building a responsive web application using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>A brief description of Project 2. This project highlights my skills in using React to build interactive user interfaces.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can reach me via <a href="mailto:your-email@example.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
